@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Título</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>HTML</h1>
     <h2>Tabla</h2>
     <table>
-        <thead>
-            <tr>
-                <th>Equipo</th>
-                <th>Puntos</th>
-                <th>Gol-diferencia</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Cartago</td>
-                <td>10</td>
-                <td>+4</td>
-            </tr>
-            <tr>
-                <td>Liga</td>
-                <td>6</td>
-                <td>+8</td>
-            </tr>
-            <tr>
-                <td>Saprissa</td>
-                <td>3</td>
-                <td>-1</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Equipo</th>
+          <th>Puntos</th>
+          <th>Gol-diferencia</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cartago</td>
+          <td>10</td>
+          <td>+4</td>
+        </tr>
+        <tr>
+          <td>Liga</td>
+          <td>6</td>
+          <td>+8</td>
+        </tr>
+        <tr>
+          <td>Saprissa</td>
+          <td>3</td>
+          <td>-1</td>
+        </tr>
+      </tbody>
     </table>
     <h2>Listas</h2>
     <h3>Listas ordenadas</h3>
     <ol>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
     </ol>
     <h3>Listas desordenadas</h3>
     <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
     </ul>
 
-    <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-10-datos-curiosos-sobre-los-gatos.png?itok=88pMyzkl" alt="Gato gris que se encuentra dentro de un sweater gris">
+    <img
+      src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-10-datos-curiosos-sobre-los-gatos.png?itok=88pMyzkl"
+      alt="Gato gris que se encuentra dentro de un sweater gris"
+    />
 
     <a href="https://www.google.com">Google</a>
 
     <p>Esto es un <b>párrafo</b> y contiene <i>cursivas</i></p>
-    
-    <input type="text" placeholder="Texto">
-    <input type="search" placeholder="Search">
-    <input type="button">
-    <input type="color">
-    <input type="datetime-local">
-    <input type="email">
-    <input type="password">
-    <input type="number">
-    <input type="range" min="3" max="10">
 
-</body>
+    <input type="text" placeholder="Texto" />
+    <input type="search" placeholder="Search" />
+    <input type="button" />
+    <input type="color" />
+    <input type="datetime-local" />
+    <input type="email" />
+    <input type="password" />
+    <input type="number" />
+    <input type="range" min="3" max="10" />
+
+    <form>
+      <fieldset>
+        <legend>Datos personales:</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
+        <br /><br />
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" />
+        <br /><br />
+        <label for="sexo">Sexo</label>
+        <select id="sexo">
+          <option value="m">Masculino</option>
+          <option value="f">Femenino</option>
+        </select>
+        <br /><br />
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
 </html>
